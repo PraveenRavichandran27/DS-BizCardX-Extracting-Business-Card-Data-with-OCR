@@ -54,7 +54,7 @@ Step 1. Data collection zone
     
 Step 2. Data upload
 
- * Click the 'Upload' button to upload the data to the Mysql database
+ * Click the 'Upload' button to upload the data to the sql database
   
 Step 3. Modification zone
 
