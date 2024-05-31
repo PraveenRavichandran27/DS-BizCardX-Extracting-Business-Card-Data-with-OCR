@@ -64,8 +64,7 @@ Step 3. Modification zone
 
    It will allow users to upload an image of a business card, extract data using easyOCR and display it. It will also allow saving extracted data and image to a database. The application needs to have a simple UI to guide users through uploading, extracting and saving data to the database.
 
-## Screenshots
-   Insert relevant screenshots of your application's interface and data extraction here.
+
 
 Contacts:
 
