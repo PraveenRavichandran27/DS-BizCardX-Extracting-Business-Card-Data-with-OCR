@@ -8,7 +8,7 @@
   
    * pandas: Used to create DataFrames for data manipulation and storage.
   
-   * sqlite3: Used to store and retrieve data from a MySQL database.
+   * sqlite3: Used to store and retrieve data from a SQL database.
   
    * streamlit: Used to create a graphical user interface for users.
   
