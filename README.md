@@ -6,13 +6,13 @@
 
 ## Libraries/Modules Used
   
-   a).pandas: Used to create DataFrames for data manipulation and storage.
+   * pandas: Used to create DataFrames for data manipulation and storage.
   
-   b).sqlite3: Used to store and retrieve data from a MySQL database.
+   * b).sqlite3: Used to store and retrieve data from a MySQL database.
   
-   c).streamlit: Used to create a graphical user interface for users.
+   * c).streamlit: Used to create a graphical user interface for users.
   
-   d).easyocr: Used for text extraction from business card images.
+   * d).easyocr: Used for text extraction from business card images.
 
 ## Workflow
 
@@ -28,8 +28,48 @@
       
    *   Extracted text is classified using regular expressions to identify key information such as company name, Designation, etc.
       
-   * The classified data is displayed on the screen and can be edited by the user if needed.
+   *   The classified data is displayed on the screen and can be edited by the user if needed.
       
    *   The MODIFY menu allows users to read, update, and delete data in the MySQL database.
+
+## E T L Process
+  
+  a) Extract data
+        
+   * Extract relevant information from business cards by using the easyOCR library
+             
+  b) Process and Transform the data
+        
+   * After the extraction process, process the extracted data based on,Name, Company name,  Designation, Mobile Number, Email, Address, and Pincode is converted into a data frame.
+             
+  c) Load data
+        
+   * After the transformation process, the data is stored in the SQLITE3.
+
+## User Guide
+
+Step 1. Data collection zone
+
+  * Click the 'Browse Files' button and select an image
+    
+Step 2. Data upload
+
+ * Click the 'Upload' button to upload the data to the Mysql database
+  
+Step 3. Modification zone
+
+ * In this 'Modification zone' you can able to modify the information also you can delete the previous data
+
+## Conclusion
+
+   It will allow users to upload an image of a business card, extract data using easyOCR and display it. It will also allow saving extracted data and image to a database. The application needs to have a simple UI to guide users through uploading, extracting and saving data to the database.
+
+## Screenshots
+   Insert relevant screenshots of your application's interface and data extraction here.
+
+Contacts:
+
+📧 Email: praveen2726r@gmail.com
+🌐 LinkedIn: https://www.linkedin.com/in/praveenr27/ 
 
   
