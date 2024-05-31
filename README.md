@@ -8,17 +8,17 @@
   
    * pandas: Used to create DataFrames for data manipulation and storage.
   
-   * b).sqlite3: Used to store and retrieve data from a MySQL database.
+   * sqlite3: Used to store and retrieve data from a MySQL database.
   
-   * c).streamlit: Used to create a graphical user interface for users.
+   * streamlit: Used to create a graphical user interface for users.
   
-   * d).easyocr: Used for text extraction from business card images.
+   * easyocr: Used for text extraction from business card images.
 
 ## Workflow
 
-   * Install the required libraries using the command pip install. Install streamlit, mysql.connector, pandas, and easyocr.
+   * Install the required libraries using the command pip install. Install streamlit, sqlite 3, pandas, and easyocr.
       
-   *   Execute the bizcardx.py script using the command streamlit run bizcardx.py.
+   * Execute the bizcardx.py script using the command streamlit run bizcardx.py.
       
    *  The web application opens in a browser, presenting the user with three menu options: HOME, UPLOAD & MODIFY, DELETE.
       
