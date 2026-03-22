@@ -8,7 +8,7 @@ import re
 import io
 import sqlite3
 
-
+ 
 def image_to_text(path):
 
   input_img= Image.open(path)
